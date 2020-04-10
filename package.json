@@ -1,0 +1,19 @@
+{
+  "name": "pa-fwgs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.656.0",
+    "chrome-aws-lambda": "^2.1.1",
+    "https": "^1.0.0",
+    "puppeteer-core": "^2.1.1",
+    "request": "^2.88.2"
+  }
+}
