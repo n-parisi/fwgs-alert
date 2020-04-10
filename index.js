@@ -2,7 +2,7 @@ const chromium = require('chrome-aws-lambda');
 const AWS = require('aws-sdk');
 
 const ALERT_MSG = "Fine Wine & Good Spirits site is now taking orders! https://www.finewineandgoodspirits.com";
-const TOPIC_ARN = "arn:aws:sns:us-east-1:605145167705:fwgs-topic";
+const TOPIC_ARN = "";
 
 exports.handler = async (event, context, callback) => {
     let isDown = null;
